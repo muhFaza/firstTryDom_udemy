@@ -1,3 +1,4 @@
+//link for sprites
 //https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/
 const container = document.querySelector('#container');
 let newImg = document.createElement('img');
