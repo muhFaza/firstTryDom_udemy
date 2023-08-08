@@ -20,3 +20,16 @@ for (let i = 1; i < 1011; i++) {
     div.appendChild(span)
     container.appendChild(div)
 }
+
+let div = document.querySelectorAll('div');
+
+div.forEach(x =>{
+    x.onmouseenter = function (){
+        x.style.border = '2px solid black'
+        x.style.backgroundColor = 'yellow'
+    }
+    x.onmouseleave = function (){
+        x.style.border = '0px'
+        x.style.backgroundColor = 'white'
+    }
+})
